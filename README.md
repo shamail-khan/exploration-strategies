@@ -1,10 +1,7 @@
 # Exploration Strategies in Reinforcement Learning
 
-Author: **Mohammad Shamail Jamal Khan (Shamail)**. New reconstruction begun **2 November 2026**.
 
 How do exploration schedules affect the speed and reliability of learning, and when does continued exploration interfere with successful behavior? This is a staged empirical study, starting with an interpretable tabular task and later adding controlled deep-RL comparisons.
-
-**Status:** tabular implementation and pilot stage. Original source files and logs are lost; no original environment, algorithm, hyperparameter or result has been verified. All code and results here are new work. [Provenance](docs/provenance.md) distinguishes the original CV scope, reconstruction and future extensions. This project is separate from the author's Fraunhofer thesis and IPIN paper.
 
 ## First stage
 
@@ -76,8 +73,4 @@ Plots show individual training seeds, means and descriptive ±1 sample SD bars. 
 
 Next: inspect this stage with Shamail, then freeze a five-seed main tabular protocol; add a small set of layouts if justified; install and pilot established DQN/PPO implementations within the CPU budget. Keep within-algorithm comparisons as the main evidence. Choose a deep-RL main environment where exploration matters. Reward shaping, if added, is a separate experimental factor.
 
-## Authorship and CV wording
 
-The research question and scope are Shamail's; implementation and documentation were developed with Codex assistance. Ownership requires reviewing the decisions and being able to explain the code; see the [learning notes](docs/learning_notes.md). Do not claim an entirely unaided implementation.
-
-For now, describe this as an **ongoing reconstruction of an empirical RL exploration study**. Final CV bullets will be written from completed experiments. Do not claim PPO entropy comparisons, demonstrated improvements or generalization before the corresponding work exists.
