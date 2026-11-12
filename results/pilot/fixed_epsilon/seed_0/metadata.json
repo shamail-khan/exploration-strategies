@@ -1,0 +1,26 @@
+{
+  "phase": "pilot",
+  "provenance": "new reconstruction; no original results",
+  "condition": {
+    "name": "fixed_epsilon",
+    "kind": "epsilon",
+    "start": 0.2,
+    "end": 0.2,
+    "decay_fraction": 1.0
+  },
+  "seed": 0,
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "logical_cpus": 8,
+  "device": "CPU",
+  "timestamp_utc": "2026-11-02T12:23:02.803626+00:00",
+  "git_commit": null,
+  "source_sha256": "d95885cdd02148477e829989332de2cb31c8b7eae1e295b37d4f4bf90de6b6ed",
+  "shortest_route": 12,
+  "checkpoint_scope": "inference only; resuming training is not supported",
+  "wall_seconds": 0.7828627999988385,
+  "first_threshold_step": 4000,
+  "completed_steps": 30000,
+  "partial_last_episode_length": 11
+}

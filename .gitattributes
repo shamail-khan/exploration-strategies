@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Preserve the exact bytes covered by the historical pilot integrity manifest.
+results/pilot/** -text whitespace=cr-at-eol

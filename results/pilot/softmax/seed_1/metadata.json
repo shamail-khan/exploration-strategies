@@ -1,0 +1,26 @@
+{
+  "phase": "pilot",
+  "provenance": "new reconstruction; no original results",
+  "condition": {
+    "name": "softmax",
+    "kind": "softmax",
+    "start": 1.0,
+    "end": 0.05,
+    "decay_fraction": 0.6
+  },
+  "seed": 1,
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "logical_cpus": 8,
+  "device": "CPU",
+  "timestamp_utc": "2026-11-02T12:23:06.954658+00:00",
+  "git_commit": null,
+  "source_sha256": "d95885cdd02148477e829989332de2cb31c8b7eae1e295b37d4f4bf90de6b6ed",
+  "shortest_route": 12,
+  "checkpoint_scope": "inference only; resuming training is not supported",
+  "wall_seconds": 0.8773420000215992,
+  "first_threshold_step": 3000,
+  "completed_steps": 30000,
+  "partial_last_episode_length": 10
+}
