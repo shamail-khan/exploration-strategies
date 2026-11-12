@@ -49,6 +49,6 @@ One small deterministic task can saturate quickly and mask strategy differences.
 
 ## Before main experiments
 
-Review pilot diagnostics with Shamail. Freeze the layout(s), conditions, budget, threshold, evaluation modes and uncertainty procedure in a separate main configuration/protocol. Target five new training seeds per condition. Predeclare any held-out-layout procedure: tabular Q tables do not transfer automatically across layouts, and training fresh agents on held-out layouts assesses cross-task robustness rather than zero-shot generalization.
+The main study will specify layouts, conditions, interaction budgets, thresholds, evaluation modes, and uncertainty procedures in a separate configuration and protocol, targeting five new training seeds per condition. Any held-out-layout procedure will distinguish cross-task evaluation of newly trained agents from zero-shot transfer of a learned policy. Tabular Q tables depend on the state encoding and do not transfer automatically across layouts.
 
 Do not run DQN versus PPO as the principal causal comparison. For the later deep study, use maintained implementations and within-DQN epsilon schedules and within-PPO entropy coefficients. Fix other settings, log actual epsilon/entropy, verify discrete-action categorical distributions and separate tuning from final evaluation. Select the meaningful main task only after the installation checks and pilot behavior are reviewed. A balancing task may serve as an installation check only.

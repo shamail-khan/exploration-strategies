@@ -1,8 +1,6 @@
-# Results report — reconstruction in progress
+# Tabular pilot results
 
-No historical results are available or verified. The original CV description is not a source of numerical findings.
-
-Current scope: a newly implemented tabular pipeline, environment validation and three-seed pilot. Generated numerical results are in `results/figures/pilot/summary.md`, with per-seed scalars and plots beside it and raw runs in `results/pilot/`.
+This report covers environment validation and a three-seed tabular Q-learning pilot conducted in November 2026. Generated numerical results are in `results/figures/pilot/summary.md`, with per-seed scalars and plots beside it and raw runs in `results/pilot/`.
 
 ## Executed pilot — 2 November 2026
 
@@ -32,17 +30,8 @@ The shared implementation can learn under all three action-selection rules on th
 
 The generated curves were visually inspected through a raster preview of the same raw evaluation data, and final policy trajectories were inspected. Main SVG plots are reproduced by the documented plot command; PNG contact sheets are supplementary previews.
 
-## Next stage
+## Further experiments
 
-Review the environment, Q update and evaluation distinction using `docs/learning_notes.md`. Before main experiments, freeze a separate protocol with five new training seeds, consider finer evaluation spacing, and decide whether this grid is only a sanity check or part of a broader task set. A deliberately high fixed epsilon could help measure persistent exploration, but that would be a newly specified condition. Do not silently revise these pilot runs or tune a task just to manufacture a winner.
+A main study is planned with five new training seeds per condition, finer evaluation spacing, and a broader task set. Additional conditions will be specified in a separate protocol and stored separately from the pilot.
 
-No main experiments, held-out-layout evaluation or deep-RL results have been completed yet. These remain work to do; this report is not the final project report.
-
-## Accurate interim CV wording
-
-**Exploration Strategies in Reinforcement Learning — ongoing reconstruction, November 2026**
-
-- Implemented a reproducible tabular Q-learning study comparing fixed and decaying epsilon-greedy with scheduled Boltzmann action selection on a sparse-reward navigation task.
-- Evaluated three training seeds per condition, separating greedy-policy quality from exploratory behavior and inspecting visitation, route length and learning curves against a shortest-path reference.
-
-These bullets describe completed new work. Do not retain a claim of completed entropy-regularization experiments yet. Code and documentation were developed with Codex assistance; Shamail should review and understand them before using the implementation as evidence of independent technical ability.
+The current evidence covers one deterministic grid. Held-out-layout evaluation and deep-RL comparisons remain planned. The [project history](provenance.md) records the implementation's scope and development.
